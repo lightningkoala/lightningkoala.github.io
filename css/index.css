@@ -4,5 +4,10 @@ text-align: center;
 
 #video {
 float: left;
+}
 
+.content {
+float: left;
+width: 50%;
+color: white; 
 }
