@@ -1,0 +1,39 @@
+* {
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+body {
+background-color: #808080;
+}
+
+.topnav {
+background-color: #ffdf00;
+overflow: hidden;
+display: inline-block;
+}
+
+.topnav-container {
+text-align: center;
+}
+
+.topnav a {
+float: left;
+color: #000;
+text-align: center;
+padding-top: 14px;
+padding-bottom: 14px;
+padding-right: 30px;
+padding-left: 30px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.topnav a.active {
+background-color: #a8a3a3;
+color: white;
+}
