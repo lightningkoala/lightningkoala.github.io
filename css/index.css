@@ -9,5 +9,10 @@ float: left;
 .content {
 float: left;
 width: 50%;
+color: white;
+}
+
+.content2 {
+float: left;
 color: white; 
 }
