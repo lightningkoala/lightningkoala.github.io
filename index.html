@@ -6,8 +6,26 @@
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="icon" href="images\icon">
+    <script type="text/javascript">
+    function startTime() {
+      var today = new Date();
+      var h = today.getHours();
+      var m = today.getMinutes();
+      var s = today.getSeconds();
+      m = checkTime(m);
+      s = checkTime(s);
+      document.getElementById('time').innerHTML =
+      "Current Time - " + h + ":" + m + ":" + s;
+      var t = setTimeout(startTime, 500);
+    }
+    function checkTime(i) {
+      if (i < 10) {i = "0" + i};
+      return i;
+    }
+    </script>
   </head>
-  <body>
+  <body onload="startTime()">
+    <p id="time"></p>
     <h1 id="title">All About the United Arab Emirates</h1>
     <div class="topnav-container">
       <div class="topnav">
