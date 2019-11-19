@@ -1,3 +1,15 @@
 #title {
   text-align: center;
+  color: white;
+}
+
+.content {
+  color: white;
+  width: 48%;
+  float: left;
+}
+
+.image {
+  float: left;
+  width: 50%;
 }
