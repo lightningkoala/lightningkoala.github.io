@@ -1,0 +1,10 @@
+.content {
+  float: left;
+  width: 50%;
+  color: white;
+}
+
+#image {
+  float: left;
+  width: 50%;
+}
