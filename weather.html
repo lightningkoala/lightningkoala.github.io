@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/weather.css">
+    <link rel="icon" href="images\icon">
+    <script type="text/javascript">
+    function startTime() {
+      var today = new Date();
+      var h = today.getHours();
+      var m = today.getMinutes();
+      var s = today.getSeconds();
+      m = checkTime(m);
+      s = checkTime(s);
+      document.getElementById('time').innerHTML =
+      "Current Time - " + h + ":" + m + ":" + s;
+      var t = setTimeout(startTime, 500);
+    }
+    function checkTime(i) {
+      if (i < 10) {i = "0" + i};
+      return i;
+    }
+    </script>
+  </head>
+  <body onload="startTime()">
+    <p id="time"></p>
+    <h1 id="title">Weather in the UAE</h1>
+    <div class="topnav-container">
+      <div class="topnav">
+        <a href="./">Home</a>
+        <a href="info.html">General Information</a>
+        <a class="active" href="weather.html">Weather</a>
+        <a href="laws.html">Laws</a>
+        <a href="bookstores.html">Bookstores</a>
+        <a href="gamestores.html">Video Game Stores</a>
+      </div>
+    </div>
+  </body>
+</html>
