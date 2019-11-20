@@ -1,0 +1,32 @@
+.content {
+  width: 50%;
+  float: left;
+  color: white;
+}
+
+#image {
+  width: 50%
+  float: left;
+}
+
+#image2 {
+  float: left;
+  width: 50%;
+  margin-top: 25px;
+}
+
+#image3 {
+  float: left;
+  width: 50%;
+  margin-top: 25px;
+}
+
+.list_title {
+  color: white;
+  margin-bottom: 5px;
+}
+
+#list_title {
+  color: white;
+  margin-bottom: -10px;
+}
