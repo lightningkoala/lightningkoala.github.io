@@ -12,10 +12,22 @@
 #image1 {
   float: left;
   width: 50%;
+  opacity: 0.5;
+}
+
+#image1:hover {
+  opacity: 1.0;
+  transition: 1s;
 }
 
 #image2 {
   float: left;
   width: 50%;
   margin-top: 25px;
+  opacity: 0.5;
+}
+
+#image2:hover {
+  opacity: 1.0;
+  transition: 1s;
 }

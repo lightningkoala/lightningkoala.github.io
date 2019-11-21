@@ -1,5 +1,11 @@
 #video {
   float: left;
+  opacity: 0.5;
+}
+
+#video:hover {
+  opacity: 1.0;
+  transition: 1s;
 }
 
 .content {

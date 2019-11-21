@@ -7,4 +7,10 @@
 .image {
   float: left;
   width: 50%;
+  opacity: 0.5;
+}
+
+.image:hover {
+  opacity: 1.0;
+  transition: 1s;
 }
